@@ -26,4 +26,4 @@ You'll be given a QR code that you can scan with the [Expo app](https://apps.app
 ## Built With
 
 * [React Native](http://www.reactnative.dev/) 
-* [Expo](https://expo.com/)
+* [Expo](https://expo.io/)
