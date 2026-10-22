@@ -3,7 +3,6 @@
  * https://github.com/facebook/react-native
  *
  * @format
- * @flow strict-local
  */
 
 import React from 'react';
@@ -15,7 +14,7 @@ import { useFonts } from 'expo-font';
 
 import { NavigationContainer } from '@react-navigation/native';
 import MainNavigator from './navigation/NavigationStack'
-const App: () => React$Node = () => {
+const App = () => {
   const [loaded] = useFonts({
     'Helvetica-Bold': require('./assets/fonts/Helvetica-Bold.ttf'),
     'Helvetica-Light': require('./assets/fonts/Helvetica-Light.ttf'),

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import Header from '../components/Header'
 import MusicListComponent from '../components/MusicListComponent'
 import AddNewMusicComponent from '../components/AddNewMusicComponent'
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const MusicListScreen = (props) => {
     const { navigation } = props

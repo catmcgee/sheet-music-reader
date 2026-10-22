@@ -3,7 +3,7 @@ import { View, Text,ScrollView, StyleSheet, Image } from 'react-native'
 import Header from '../components/Header'
 import { TouchableRipple } from 'react-native-paper';
 import AwesomeAlert from 'react-native-awesome-alerts';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import ImageSwiper from '../components/ImageSwiper'
 
 const MusicDetailScreen = (props) => {

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TextInput, Image, ScrollView } from 'react-nati
 import Header from '../components/Header'
 import ImagePicker from 'react-native-image-crop-picker';
 import { Button } from 'react-native-paper';
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import ImageSwiper from '../components/ImageSwiper'
 const AddNewMusicScreen = (props) => {
     const { navigation } = props
