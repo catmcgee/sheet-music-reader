@@ -81,6 +81,8 @@
     "metro-minify-terser": "0.83.8",
     "metro-transform-worker": "0.83.8",
     "metro-babel-transformer": "0.83.8",
-    "metro-transform-plugins": "0.83.8"
+    "metro-transform-plugins": "0.83.8",
+    "postcss": "^8.5.23",
+    "fast-xml-parser": "^5.7.0"
   }
 }
